@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T08:41:23 CST" name="Default suite" finished-at="2024-03-09T08:42:06 CST" duration-ms="43182">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T08:41:23 CST" name="Default test" finished-at="2024-03-09T08:42:06 CST" duration-ms="43182">
+      <class name="tests.MicrosoftTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:41:23 CST" name="setUp" finished-at="2024-03-09T08:41:31 CST" duration-ms="7706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMenuItemsPresence()[pri:1, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:41:31 CST" name="testMenuItemsPresence" finished-at="2024-03-09T08:41:34 CST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuItemsPresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:41:34 CST" name="tearDown" finished-at="2024-03-09T08:41:35 CST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:41:35 CST" name="setUp" finished-at="2024-03-09T08:41:40 CST" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWindowsSubMenu()[pri:2, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:41:40 CST" name="testWindowsSubMenu" finished-at="2024-03-09T08:42:05 CST" duration-ms="24948" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Las cadenas no son iguales expected [$499.00] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Las cadenas no son iguales expected [$499.00] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at tests.MicrosoftTest.testWindowsSubMenu(MicrosoftTest.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindowsSubMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MicrosoftTest@3c407114]" started-at="2024-03-09T08:42:05 CST" name="tearDown" finished-at="2024-03-09T08:42:06 CST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MicrosoftTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
